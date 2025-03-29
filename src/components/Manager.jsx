@@ -45,13 +45,15 @@ const Manager = () => {
       progress: undefined,
       theme: "light",
     });
-    await fetch("http://localhost:3000/", {
-      method: "DELETE",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ id: form.id })
-    })
+    if (form.id) {
+      await fetch("http://localhost:3000/", {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ id: form.id })
+      })
+    }
     await fetch("http://localhost:3000/", {
       method: "POST",
       headers: {
