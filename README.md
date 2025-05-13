@@ -7,12 +7,12 @@ A secure and easy-to-use password manager that allows users to store, view, and 
 In these screenshots I have displayed the insertion of data
 
 ### Before Insertion
-[App](ProjectDemo/Before1.png)
-[Database](ProjectDemo/Before2.png)
+-[App](ProjectDemo/Before1.png)
+-[Database](ProjectDemo/Before2.png)
 
 ### After Insertion
-[App](ProjectDemo/After1.png)
-[Database](ProjectDemo/After2.png)
+-[App](ProjectDemo/After1.png)
+-[Database](ProjectDemo/After2.png)
 
 ---
 
@@ -40,6 +40,5 @@ In these screenshots I have displayed the insertion of data
 
 ## 🌐 Live Demo of an alternate version which uses local storage for storing
 
-🔗 [View Live](https://illustrious-biscotti-8c9512.netlify.app/)
+-🔗 [View Live](https://illustrious-biscotti-8c9512.netlify.app/)
 
----
